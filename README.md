@@ -1,16 +1,20 @@
-# clgraph — Epic CLI Graph Library
+# CLGraph  — Epic CLI Graph Library
 
 A high-performance terminal graph library in pure C.  
 Renders via **ncurses** + **Unicode braille** sub-pixels (each terminal cell = 2×4 dots).  
 Works on Linux, macOS, and **Termux (Android)**.
 
 ```
-  ██████╗██╗      ██████╗ ██████╗  █████╗ ██████╗ ██╗  ██╗
-  ██╔════╝██║     ██╔════╝ ██╔══██╗██╔══██╗██╔══██╗██║  ██║
-  ██║     ██║     ██║  ███╗██████╔╝███████║██████╔╝███████║
-  ██║     ██║     ██║   ██║██╔══██╗██╔══██║██╔═══╝ ██╔══██║
-  ╚██████╗███████╗╚██████╔╝██║  ██║██║  ██║██║     ██║  ██║
-   ╚═════╝╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝     ╚═╝  ╚═╝
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@                                                                 @
+@  e88~-_  888      e88~~\  888~-_        e      888~-_   888   | @
+@ d888   \ 888     d888     888   \      d8b     888   \  888___| @
+@ 8888     888     8888 __  888    |    /Y88b    888    | 888   | @
+@ 8888     888     8888   | 888   /    /  Y88b   888   /  888   | @
+@ Y888   / 888     Y888   | 888_-~    /____Y88b  888_-~   888   | @
+@  "88_-~  888____  "88__/  888 ~-_  /      Y88b 888      888   | @
+@                                                                 @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ```
 
 ---
@@ -27,6 +31,21 @@ Works on Linux, macOS, and **Termux (Android)**.
 | **Axes** | auto-axes, dashed grid, border, title, axis labels |
 | **Interop** | works with `math.h`, GSL, or any numeric library |
 | **Portability** | Linux / macOS / **Termux** — no X11, no GPU |
+
+## Previews 
+<p align="left">
+  <img src="assets/preview1.jpg" width="180"/><img src="assets/preview2.jpg" width="180"/><img src="assets/preview3.jpg" width="180"/>
+  <br/>
+  <img src="assets/preview4.jpg" width="180"/><img src="assets/preview5.jpg" width="180"/><img src="assets/preview6.jpg" width="180"/>
+  <br/>
+  <img src="assets/preview7.jpg" width="180"/><img src="assets/preview8.jpg" width="180"/><img src="assets/preview9.jpg" width="180"/>
+  <br/>
+  <img src="assets/preview10.jpg" width="180"/><img src="assets/preview11.jpg" width="180"/><img src="assets/preview12.jpg" width="180"/>
+  <br/>
+  <img src="assets/preview13.jpg" width="180"/><img src="assets/preview14.jpg" width="180"/><img src="assets/preview15.jpg" width="180"/>
+  <br/>
+  <img src="assets/preview16.jpg" width="180"/><img src="assets/preview17.jpg" width="180"/><img src="assets/preview18.jpg" width="180"/>
+</p>
 
 ---
 
